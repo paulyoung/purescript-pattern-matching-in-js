@@ -95,7 +95,7 @@ const getMaybeValue = maybe({
 });
 ```
 
-We can choose to ignore the values passed to our functions if we like. Here's how we might reimplement [`isJust`](https://pursuit.purescript.org/packages/purescript-maybe/3.0.0/docs/Data.Maybe#v:isJust).
+We can choose to ignore the values passed to our functions if we like. Here's how we might reimplement [`isJust`](https://pursuit.purescript.org/packages/purescript-maybe/3.0.0/docs/Data.Maybe#v:isJust):
 
 ```javascript
 import { maybe } from 'Data/Maybe/Interop.purs';
